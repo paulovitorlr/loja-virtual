@@ -1,0 +1,61 @@
+$branco: #FFF;
+$rosa: #FF0F9A;
+
+$cor-primaria: #FFC107;
+$cor-secundaria: #343A40;
+
+header{
+    background: $cor-primaria;
+    padding: 25px;
+
+    form{
+        input[type="text"]{
+            background-color: $branco;
+            width: 100%;
+            border-radius: 100px;
+            border: none;
+            padding: 10px 20px;
+        }
+        button{
+            background: none;
+            border: none;
+            position: relative;
+            right: 40px;
+            
+        }
+
+    }
+
+    ul{
+        li{
+            position: relative;
+            span.notificacao{
+                position: absolute;
+                color: $branco;
+                background-color: $rosa;
+
+                font-size: 10px;
+                width: 15px;
+                height: 15px;
+
+                top: -8px;
+                left: 2px;
+
+                border-radius: 100%;
+            }
+            a{
+                font-size: 16px;
+                font-weight: bold;
+                color: $cor-secundaria;
+
+                svg{
+                    font-size: 23px;
+                }
+                
+                &:hover{
+                    color: initial;
+                }
+            }
+        }
+    }
+}

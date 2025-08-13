@@ -1,5 +1,14 @@
 //fonts
 
 
+//variaveis
+@use 'variaveis.scss' ;
+//config
+@use 'config.scss' ;
+//components
+@use 'header.scss';
 //framework
-@use 'bootstrap.scss' as *;
+@use 'bootstrap.scss';
+
+
+

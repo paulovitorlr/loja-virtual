@@ -1,4 +1,55 @@
 @charset "UTF-8";
+* {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+header {
+  background: #FFC107;
+  padding: 25px;
+}
+header form input[type=text] {
+  background-color: #FFF;
+  width: 100%;
+  border-radius: 100px;
+  border: none;
+  padding: 10px 20px;
+}
+header form button {
+  background: none;
+  border: none;
+  position: relative;
+  right: 40px;
+}
+header ul li {
+  position: relative;
+}
+header ul li span.notificacao {
+  position: absolute;
+  color: #FFF;
+  background-color: #FF0F9A;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  top: -8px;
+  left: 2px;
+  border-radius: 100%;
+}
+header ul li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: #343A40;
+}
+header ul li a svg {
+  font-size: 23px;
+}
+header ul li a:hover {
+  color: initial;
+}
+
 /*!
 * Bootstrap  v5.3.7 (https://getbootstrap.com/)
 * Copyright 2011-2025 The Bootstrap Authors
