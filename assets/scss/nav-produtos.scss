@@ -1,0 +1,61 @@
+$branco: #FFF;
+$rosa: #FF0F9A;
+
+$cor-primaria: #FFC107;
+$cor-secundaria: #343A40;
+
+
+
+
+nav.nav-produtos{
+    background-color: $cor-secundaria;
+    color: $branco;
+
+    ul.nav{
+
+        a{
+            color: $branco;
+        }
+        li{
+            position: relative;
+            padding: 10px ;
+
+            svg{
+                margin-right: 10px;
+                font-size: 20px;
+            }
+
+            &:hover{
+                background: #212325;
+
+                
+                
+                ul.nav{
+                    display: block;
+                }
+            }
+
+            ul.nav{
+                z-index: 999;
+                display: none;
+
+                position:absolute;
+                top:44px;
+                left: 0px;
+
+                background-color: $cor-secundaria;
+                border-top: solid $cor-primaria 10px;
+
+                width: 100%;
+
+                
+                
+                
+            }
+            
+            li{
+                padding: 10px 25px;
+            }
+        }
+    }
+}
