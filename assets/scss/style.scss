@@ -1,15 +1,18 @@
-//fonts
+
 
 
 //variaveis
 @use 'variaveis.scss' ;
-//config
-@use 'config.scss' ;
+
 //components
 @use 'header.scss';
 @use 'nav-produtos.scss';
+@use 'banners-promocionais-statico.scss';
+
 //framework
 @use 'bootstrap.scss';
 
+//config
+@use 'config.scss' ;
 
 

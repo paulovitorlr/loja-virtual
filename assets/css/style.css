@@ -1,12 +1,4 @@
 @charset "UTF-8";
-body {
-  color: #343A40;
-}
-
-a {
-  text-decoration: none !important;
-}
-
 header {
   background: #FFC107;
   padding: 25px;
@@ -83,6 +75,42 @@ nav.nav-produtos ul.nav li ul.nav {
 }
 nav.nav-produtos ul.nav li li {
   padding: 10px 25px;
+}
+
+.banners-promocionais-statico {
+  margin-top: 30px;
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x {
+  background-color: #FF0F9A;
+  background-image: url("../images/parcele-em-12x.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-color: #B343C3;
+  background-image: url("../images/entrega-para-todo-brasil.jpg");
+}
+.banners-promocionais-statico .banners-promocionais-statico-12x,
+.banners-promocionais-statico .banners-promocionais-statico-todo-br {
+  background-size: cover;
+  height: 105px;
+  padding: 20px 60px;
+  color: #FFF;
+}
+.banners-promocionais-statico svg, .banners-promocionais-statico p {
+  margin: 0;
+  padding: 0;
+}
+.banners-promocionais-statico svg {
+  width: 55px;
+  height: 55px;
+}
+.banners-promocionais-statico p {
+  font-size: 23px;
+  font-weight: 100;
+  line-height: 110%;
+  margin-left: 20px;
+}
+.banners-promocionais-statico p strong {
+  font-weight: bold;
 }
 
 /*!
@@ -12145,5 +12173,12 @@ textarea.form-control-lg {
   }
 }
 
+body {
+  color: #343A40;
+}
+
+a {
+  text-decoration: none !important;
+}
 
 /*# sourceMappingURL=style.css.map */
