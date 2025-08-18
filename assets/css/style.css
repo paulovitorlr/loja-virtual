@@ -156,6 +156,9 @@ footer h4 {
   #carouselExampleControls {
     display: none;
   }
+  .produtos-container img {
+    width: 100%;
+  }
 }
 @media (max-width: 375px) {
   .banners-promocionais-statico .banners-promocionais-statico-12x p,
@@ -12237,6 +12240,7 @@ h1 {
 
 h1, h2, h3, h4, h5 {
   font-weight: bold;
+  margin: 10px 0;
 }
 
 /*# sourceMappingURL=style.css.map */
