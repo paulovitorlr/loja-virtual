@@ -1,0 +1,31 @@
+@media (max-width: 767px){
+    header{
+        section{
+            article{
+                a{
+                    img{
+                        margin: 10px 0;
+                    }
+                }
+            }
+        }
+        form{
+            margin: 20px 0;
+        }
+    }
+
+    #carouselExampleControls{
+        display: none;
+    }
+}
+
+@media (max-width: 375px){
+    .banners-promocionais-statico{
+    .banners-promocionais-statico-12x,
+    .banners-promocionais-statico-todo-br{
+        p{
+            font-size: 14px;
+        }
+    }
+    }
+}
